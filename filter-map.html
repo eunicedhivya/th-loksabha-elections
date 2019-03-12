@@ -6,11 +6,48 @@
     <title>General Elections Visualization</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://www.thehindu.com/static/theme/default/base/css/theme.min.css" />
+    <style>
+        .chart{
+            width: 400px;
+            height: auto;
+            margin: 0 auto;
+            background: #fff;
+        }
+
+        body{
+            background: #ccc;
+        }
+    </style>
 </head>
 <body>
+    <div class="chart karnatakamap-2008"></div>
     <script src="http://www.thehindu.com/static/js/jquery-1.10.2.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
     <script src="static/chart/topo-map.js"></script>
+    <script>
+        // var loksabha_2019 = {
+        //     htmlElement: ".karnatakamap-2008",
+        //     constituencies: "All",
+        //     margin: { top: 50, left: 50, right: 50, bottom: 50 },
+        //     width: 430,
+        //     height: 500,
+        //     center: [78, 11],
+        //     scale: 3500,
+        //     map: "static/maps/india_pc.json"
+        // }
+        var loksabha_2019 = {
+            htmlElement: ".karnatakamap-2008",
+            constituencies: "All",
+            margin: { top: 50, left: 50, right: 50, bottom: 50 },
+            width: 430,
+            height: 500,
+            center: [83, 23],
+            scale: 800,
+            map: "static/maps/india_pc.json"
+        }
+
+        map_function(loksabha_2019);
+    </script>
 </body>
 </html>
