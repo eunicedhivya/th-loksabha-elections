@@ -27,6 +27,7 @@ function map_function(options){
 		.projection(projection)
 
 			d3.json(options.map, function(error, mapshape){
+
 				console.log("mapshapedata", mapshape)
 				//geodata to create mapshapes
 				var c = topojson.feature(mapshape, mapshape.objects.collection).features;
