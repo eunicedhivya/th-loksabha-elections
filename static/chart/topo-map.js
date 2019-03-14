@@ -7,6 +7,12 @@
 // 	// console.log();
 // 	return d.properties.ST_NAME === 'TN';
 // })
+function getStateCode() {
+	var selectedValue = document.getElementById("showbystate").value;
+	console.log(selectedValue)
+	map_function(loksabha_2019, selectedValue);
+}
+
 function getStateInfo(criteria) {
 	return stateInfo.filter(function (obj) {
 		return obj.STATE_CODE === criteria;
@@ -46,7 +52,7 @@ function map_function(options, chosenstate){
 				return d.properties.ST_NAME === chosenstate;
 			})
 		}else{
-			
+
 			chosenStateShapes = allConstShape
 		}
 
