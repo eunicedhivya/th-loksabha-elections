@@ -24,12 +24,6 @@
     </style>
 </head>
 <body>
-    <select id="showbystate" onchange="getStateCode();">
-        <option value="IN">India</option>
-        <option value="TN">Tamil Nadu</option>
-        <option value="AP">Andhra Pradesh</option>
-        <option value="AR">Arunachal Pradesh</option>
-    </select>
     <div class="chart karnatakamap-2008"></div>
     <script src="http://www.thehindu.com/static/js/jquery-1.10.2.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -49,11 +43,21 @@
             map: "static/maps/india_pc.json"
         }
       
-        function getStateCode(){
-            var selectedValue = document.getElementById("showbystate").value;
-            console.log(selectedValue)
-            map_function(loksabha_2019, selectedValue);
-        }
+        
+
+            var select = d3.select('body')
+                .append('select')
+                .attr('class', 'select')
+                .attr('onchange', 'getStateCode();')
+                .attr('id', 'showbystate')
+
+            var options = select
+                .selectAll('option')
+                .data(stateInfo).enter()
+                .append('option')
+                .attr("value", function(d){ return d.STATE_CODE;})
+                .text(function (d) { return d.STATE; });
+
                 
         map_function(loksabha_2019, "IN");
                 
