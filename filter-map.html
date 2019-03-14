@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="http://www.thehindu.com/static/theme/default/base/css/theme.min.css" />
     <style>
         .chart{
-            width: 600px;
+            width: 450px;
             height: auto;
             margin: 0 auto;
             background: #fff;
@@ -17,12 +17,18 @@
         body{
             background: #ccc;
         }
+        
+        path{
+            fill:#333;
+        }
     </style>
 </head>
 <body>
-    <select id="showbystate" onchange="getSelectValue();">
+    <select id="showbystate" onchange="getStateCode();">
         <option value="IN">India</option>
         <option value="TN">Tamil Nadu</option>
+        <option value="AP">Andhra Pradesh</option>
+        <option value="AR">Arunachal Pradesh</option>
     </select>
     <div class="chart karnatakamap-2008"></div>
     <script src="http://www.thehindu.com/static/js/jquery-1.10.2.min.js"></script>
@@ -30,25 +36,27 @@
     <script src="https://d3js.org/topojson.v2.min.js"></script>
     <script src="static/chart/topo-map.js"></script>
     <script>
+
+        var stateInfo =  [{ "STATE": "India", "STATE_CODE": "IN", "SCALE": 800, "CENTER": [83, 23] }, { "STATE": "Tamil Nadu", "STATE_CODE": "TN", "SCALE": 3500, "CENTER": [78, 11] }, { "STATE": "Andhra Pradesh", "STATE_CODE": "AP", "SCALE": 2500, "CENTER": [80.8, 16] }, { "STATE": "Arunachal Pradesh", "STATE_CODE": "AR", "SCALE": 2500, "CENTER": [94.7, 28] }, { "STATE": "Assam", "STATE_CODE": "AS", "SCALE": 2500, "CENTER": [92.9, 26] }, { "STATE": "Bihar", "STATE_CODE": "BR", "SCALE": 3000, "CENTER": [85, 25] }, { "STATE": "Chhattisgarh", "STATE_CODE": "CT", "SCALE": 100, "CENTER": [81.8, 21] }, { "STATE": "Goa", "STATE_CODE": "GA", "SCALE": 15000, "CENTER": [74, 15.5] }, { "STATE": "Gujarat", "STATE_CODE": "GJ", "SCALE": 3000, "CENTER": [71, 22] }, { "STATE": "Haryana", "STATE_CODE": "HR", "SCALE": 5000, "CENTER": [76, 29.5] }, { "STATE": "Himachal Pradesh", "STATE_CODE": "HP", "SCALE": 5000, "CENTER": [77, 32] }, { "STATE": "Jammu and Kashmir", "STATE_CODE": "JK", "SCALE": 2000, "CENTER": [74.8, 32.7] }, { "STATE": "Jharkhand", "STATE_CODE": "JH", "SCALE": 2500, "CENTER": [85, 23.6] }, { "STATE": "Karnataka", "STATE_CODE": "KA", "SCALE": 2000, "CENTER": [75.7, 15] }, { "STATE": "Kerala", "STATE_CODE": "KL", "SCALE": 4000, "CENTER": [76, 10.8] }, { "STATE": "Madya Pradesh", "STATE_CODE": "MP", "SCALE": 2000, "CENTER": [78.6, 22.9] }, { "STATE": "Maharashtra", "STATE_CODE": "MH", "SCALE": 2000, "CENTER": [75.7, 19.7] }, { "STATE": "Manipur", "STATE_CODE": "MN", "SCALE": 4000, "CENTER": [93.9, 24.6] }, { "STATE": "Meghalaya", "STATE_CODE": "ML", "SCALE": 4000, "CENTER": [91, 25] }, { "STATE": "Mizoram", "STATE_CODE": "MZ", "SCALE": 4000, "CENTER": [92.9, 23] }, { "STATE": "Nagaland", "STATE_CODE": "NL", "SCALE": 5500, "CENTER": [94, 26] }, { "STATE": "Orissa", "STATE_CODE": "OD", "SCALE": 2500, "CENTER": [85, 20.9] }, { "STATE": "Punjab", "STATE_CODE": "PB", "SCALE": 4500, "CENTER": [75.2, 31] }, { "STATE": "Rajasthan", "STATE_CODE": "RJ", "SCALE": 2000, "CENTER": [74, 27] }, { "STATE": "Sikkim", "STATE_CODE": "SK", "SCALE": 8000, "CENTER": [88.5, 27.5] }, { "STATE": "Telangana", "STATE_CODE": "TG", "SCALE": 100, "CENTER": [79, 18] }, { "STATE": "Tripura", "STATE_CODE": "TR", "SCALE": 10000, "CENTER": [91.9, 23.9] }, { "STATE": "Uttarakhand", "STATE_CODE": "UT", "SCALE": 100, "CENTER": [79, 30] }, { "STATE": "Uttar Pradesh", "STATE_CODE": "UP", "SCALE": 2500, "CENTER": [80.9, 27.8] }, { "STATE": "West Bengal", "STATE_CODE": "WB", "SCALE": 3500, "CENTER": [87.8, 24.5] }, { "STATE": "Andaman and Nicobar Islands", "STATE_CODE": "AN", "SCALE": 3000, "CENTER": [92.6, 10.5] }, { "STATE": "Chandigarh", "STATE_CODE": "CH", "SCALE": 16000, "CENTER": [76.7, 30.7] }, { "STATE": "Dadar and Nagar Haveli", "STATE_CODE": "DN", "SCALE": 22000, "CENTER": [73, 20.2] }, { "STATE": "Daman and Diu", "STATE_CODE": "DD", "SCALE": 10000, "CENTER": [72, 20] }, { "STATE": "Delhi", "STATE_CODE": "DL", "SCALE": 30000, "CENTER": [77.1, 28.7] }, { "STATE": "Lakshadeep", "STATE_CODE": "LD", "SCALE": 14000, "CENTER": [73, 11] }, { "STATE": "Puducherry", "STATE_CODE": "PY", "SCALE": 15000, "CENTER": [79.8, 11.5] }];
         
 
         var loksabha_2019 = {
-                htmlElement: ".karnatakamap-2008",
-                constituencies: "All",
-                margin: { top: 50, left: 50, right: 50, bottom: 50 },
-                width: 430,
-                height: 500,
-                center: [83, 23],
-                scale: 800,
-                map: "static/maps/india_pc.json"
+            htmlElement: ".karnatakamap-2008",
+            constituencies: "All",
+            margin: { top: 50, left: 50, right: 50, bottom: 50 },
+            width: 430,
+            height: 500,
+            map: "static/maps/india_pc.json"
         }
-        
-        // getSelectValue();
-        map_function(loksabha_2019);
-
-        
-
-        
+      
+        function getStateCode(){
+            var selectedValue = document.getElementById("showbystate").value;
+            console.log(selectedValue)
+            map_function(loksabha_2019, selectedValue);
+        }
+                
+        map_function(loksabha_2019, "IN");
+                
     </script>
 </body>
 </html>
