@@ -80,9 +80,11 @@ var j =0;
 				if (fd.length > 0){
 					if (fd[0]['constituencyName'] !== undefined) {
 						//refer to scrapped info
-						className = "cno" + d.properties.PC_CODE + " ";
-						className += "sc" + d.properties.ST_NAME + " ";
-						className += "sc" + fd[0]['constituencyName'] + " ";
+						// className = "cno" + d.properties.PC_CODE + " ";
+						// className += "sc" + d.properties.ST_NAME + " ";
+						// className += "sc" + fd[0]['constituencyName'] + " ";
+						className = "c" + d.properties.PC_CODE + " ";
+						className += fd[0]['leadingParty'].toLowerCase();
 					} else {
 						className = "empty-color";
 					}
