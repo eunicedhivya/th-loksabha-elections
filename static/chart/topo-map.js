@@ -27,6 +27,7 @@ function map_function(options, chosenstate, mapdata){
 		filteredData = filterStatewiseData(chosenstate);
 	}
 
+	console.log(filteredData)
 	//Empty container
 	d3.select(options["htmlElement"]).html(null)
 
@@ -49,7 +50,7 @@ function map_function(options, chosenstate, mapdata){
 
 	var geoPath = d3.geoPath()
 		.projection(projection)
-
+var j =0;
 	d3.json(options.map, function (error, mapshape) {
 		var allConstShape = topojson.feature(mapshape, mapshape.objects.collection).features;
 		var chosenStateShapes;
@@ -65,7 +66,31 @@ function map_function(options, chosenstate, mapdata){
 		svg.selectAll(".constituency")
 			.data(chosenStateShapes).enter().append("path")
 			.attr("d", geoPath)
-			.attr("class", "state")
+			.attr("class", function(d,i){
+				// console.log(i, d.properties.ST_NAME, d.properties.PC_CODE)
+				var fd = mapdata.filter(function (dataobj) {
+					return dataobj.constNo === d.properties.PC_CODE && dataobj.stateCode === d.properties.ST_NAME;
+				})
+				console.log("fd", fd)
+				var className ;
+				if (fd.length > 0){
+					if (fd[0]['constituencyName'] !== undefined) {
+						//refer to scrapped info
+						j++
+						console.log(fd[0]['constituencyName'],j)
+						className += "cno" + fd[0]['constNo'] + " ";
+						className += "sc" + d.properties.ST_NAME + " ";
+						className += "sc" + fd[0]['constituencyName'] + " ";
+					} else {
+						console.log("Constituency name undefined")
+						className = "empty-color";
+					}
+				}else{
+					console.log("Constituency name undefined", j++)
+					className = "empty-color";
+				}
+				return className
+			})
 			.attr('fill', "white")
 			.attr('stroke', "#666")
 			.attr('stroke-width', "0.5")
