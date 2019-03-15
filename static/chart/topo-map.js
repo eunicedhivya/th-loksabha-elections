@@ -39,6 +39,10 @@ function map_function(options, chosenstate, mapdata){
 		.attr("preserveAspectRatio", "xMinYMin")
 		.append("g")
 
+	// Add a tooltip to visualization
+	var tooltip = d3.select('body').append('div')
+		.attr('class', 'hidden tooltipblock');
+
 	//Get latlong, scale info of chosenstate
 	var chosenStateInfo = getStateInfo(chosenstate);
 
@@ -67,13 +71,11 @@ var j =0;
 			.data(chosenStateShapes).enter().append("path")
 			.attr("d", geoPath)
 			.attr("class", function(d,i){
-				// console.log(i, d.properties.ST_NAME, d.properties.PC_CODE)
 				var fd = mapdata.filter(function (dataobj,i) {
-				//	console.log(dataobj.constNo,i)
 					return dataobj.constNo === d.properties.PC_CODE && dataobj.stateCode === d.properties.ST_NAME;
 				})
 
-				console.log("fd", fd)
+				// console.log("fd", fd)
 				var className ;
 				if (fd.length > 0){
 					if (fd[0]['constituencyName'] !== undefined) {
@@ -82,19 +84,49 @@ var j =0;
 						className += "sc" + d.properties.ST_NAME + " ";
 						className += "sc" + fd[0]['constituencyName'] + " ";
 					} else {
-						// console.log("Constituency name undefined")
 						className = "empty-color";
 					}
 				}else{
-					// console.log("Constituency name undefined", j++)
 					className = "empty-color " + d.properties.PC_NAME;
 				}
-				return className
+				return className;
 			})
 			.attr('fill', "white")
 			.attr('stroke', "#666")
 			.attr('stroke-width', "0.5")
 			.attr('stroke-opacity', "0.5")
+			.on("mouseover", function(d,i){
+				var fd = mapdata.filter(function (dataobj, i) {
+					return dataobj.constNo === d.properties.PC_CODE && dataobj.stateCode === d.properties.ST_NAME;
+				})
+
+				// console.log("fd", fd)
+				var html = '';
+				if (fd.length > 0) {
+					if (fd[0]['constituencyName'] !== undefined) {
+						html = '<p><b>' + fd[0]['constituencyName'] + '</b></p>';
+						html += '<hr>';
+						html += '<p><b>Leading:</b> ' + fd[0]['leadingCandidate'] + ' (' + fd[0]['leadingParty'] + ')</p>';
+						html += '<p><b>Trailing:</b> ' + fd[0]['trailingCandidate'] + ' (' + fd[0]['trailingParty'] + ')</p>';
+						html += '<p><b>Margin:</b> ' + fd[0]['margin'] + '</p>';
+
+					} else {
+						
+					}
+				} else {
+					html = '<p><b>' + d.properties.PC_NAME; + '</b></p>';
+				}
+				// return html;
+
+				tooltip.classed('hidden', false)
+					.html(html)
+					.style("left", (d3.event.pageX + 10) + "px")
+					.style("top", d3.event.pageY + "px") 
+			})
+			.on("mouseout", function(d,i){
+				tooltip.classed('hidden', true)
+			})
+			
 
 	});
 
