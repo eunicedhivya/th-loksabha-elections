@@ -12,8 +12,6 @@ function getStateInfo(criteria) {
 }
 
 function map_function(options, chosenstate, mapdata){
-	// console.log("mapdata", mapdata)
-
 	var filteredData;
 
 	function filterStatewiseData(criteria) {
@@ -28,8 +26,6 @@ function map_function(options, chosenstate, mapdata){
 	}else{
 		filteredData = filterStatewiseData(chosenstate);
 	}
-
-	console.log("filteredData", filteredData)
 
 	//Empty container
 	d3.select(options["htmlElement"]).html(null)

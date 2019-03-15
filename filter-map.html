@@ -57,8 +57,6 @@
                 });
                 return data2014;
             })(); 
-      
-        console.log("data2014", data2014)
 
         var select = d3.select('body')
             .append('select')
@@ -73,7 +71,6 @@
             .attr("value", function(d){ return d.STATE_CODE;})
             .text(function (d) { return d.STATE; });
 
-                
         map_function(loksabha_2019, "IN", data2014);
                 
                 
