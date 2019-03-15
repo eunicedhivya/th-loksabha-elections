@@ -68,26 +68,26 @@ var j =0;
 			.attr("d", geoPath)
 			.attr("class", function(d,i){
 				// console.log(i, d.properties.ST_NAME, d.properties.PC_CODE)
-				var fd = mapdata.filter(function (dataobj) {
+				var fd = mapdata.filter(function (dataobj,i) {
+				//	console.log(dataobj.constNo,i)
 					return dataobj.constNo === d.properties.PC_CODE && dataobj.stateCode === d.properties.ST_NAME;
 				})
+
 				console.log("fd", fd)
 				var className ;
 				if (fd.length > 0){
 					if (fd[0]['constituencyName'] !== undefined) {
 						//refer to scrapped info
-						j++
-						console.log(fd[0]['constituencyName'],j)
-						className += "cno" + fd[0]['constNo'] + " ";
+						className = "cno" + d.properties.PC_CODE + " ";
 						className += "sc" + d.properties.ST_NAME + " ";
 						className += "sc" + fd[0]['constituencyName'] + " ";
 					} else {
-						console.log("Constituency name undefined")
+						// console.log("Constituency name undefined")
 						className = "empty-color";
 					}
 				}else{
-					console.log("Constituency name undefined", j++)
-					className = "empty-color";
+					// console.log("Constituency name undefined", j++)
+					className = "empty-color " + d.properties.PC_NAME;
 				}
 				return className
 			})
