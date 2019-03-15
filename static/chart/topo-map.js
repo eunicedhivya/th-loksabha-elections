@@ -2,7 +2,7 @@
 function getStateCode() {
 	var selectedValue = document.getElementById("showbystate").value;
 	console.log(selectedValue)
-	map_function(loksabha_2019, selectedValue);
+	map_function(loksabha_2019, selectedValue, data2014);
 }
 
 function getStateInfo(criteria) {
@@ -11,7 +11,26 @@ function getStateInfo(criteria) {
 	})
 }
 
-function map_function(options, chosenstate){
+function map_function(options, chosenstate, mapdata){
+	// console.log("mapdata", mapdata)
+
+	var filteredData;
+
+	function filterStatewiseData(criteria) {
+		return mapdata.filter(function (obj) {
+			return obj.stateCode === criteria;
+		})
+	}
+
+	//show data based on chosenstate
+	if(chosenstate === "IN"){
+		filteredData = mapdata;
+	}else{
+		filteredData = filterStatewiseData(chosenstate);
+	}
+
+	console.log("filteredData", filteredData)
+
 	//Empty container
 	d3.select(options["htmlElement"]).html(null)
 

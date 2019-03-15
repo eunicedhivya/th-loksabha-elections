@@ -42,24 +42,40 @@
             height: 500,
             map: "static/maps/india_pc.json"
         }
+
+
+        var data2014 = (function () {
+                var data2014 = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/ge_2014data.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        data2014 = data;
+                    }
+                });
+                return data2014;
+            })(); 
       
-        
+        console.log("data2014", data2014)
 
-            var select = d3.select('body')
-                .append('select')
-                .attr('class', 'select')
-                .attr('onchange', 'getStateCode();')
-                .attr('id', 'showbystate')
+        var select = d3.select('body')
+            .append('select')
+            .attr('class', 'select')
+            .attr('onchange', 'getStateCode();')
+            .attr('id', 'showbystate')
 
-            var options = select
-                .selectAll('option')
-                .data(stateInfo).enter()
-                .append('option')
-                .attr("value", function(d){ return d.STATE_CODE;})
-                .text(function (d) { return d.STATE; });
+        var options = select
+            .selectAll('option')
+            .data(stateInfo).enter()
+            .append('option')
+            .attr("value", function(d){ return d.STATE_CODE;})
+            .text(function (d) { return d.STATE; });
 
                 
-        map_function(loksabha_2019, "OD");
+        map_function(loksabha_2019, "IN", data2014);
+                
                 
     </script>
 </body>
