@@ -1,12 +1,4 @@
 
-// //all states
-// var c = topojson.feature(mapshape, mapshape.objects.collection).features;
-
-// //filter to one state
-// var single = c.filter(function (d) {
-// 	// console.log();
-// 	return d.properties.ST_NAME === 'TN';
-// })
 function getStateCode() {
 	var selectedValue = document.getElementById("showbystate").value;
 	console.log(selectedValue)
@@ -43,7 +35,6 @@ function map_function(options, chosenstate){
 	var geoPath = d3.geoPath()
 		.projection(projection)
 
-
 	d3.json(options.map, function (error, mapshape) {
 		var allConstShape = topojson.feature(mapshape, mapshape.objects.collection).features;
 		var chosenStateShapes;
@@ -52,7 +43,6 @@ function map_function(options, chosenstate){
 				return d.properties.ST_NAME === chosenstate;
 			})
 		}else{
-
 			chosenStateShapes = allConstShape
 		}
 
