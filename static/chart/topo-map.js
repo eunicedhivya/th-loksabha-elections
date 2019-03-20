@@ -57,7 +57,9 @@ function map_function(options, chosenstate, mapdata){
 var j =0;
 	d3.json(options.map, function (error, mapshape) {
 		var allConstShape = topojson.feature(mapshape, mapshape.objects.collection).features;
+		
 		var chosenStateShapes;
+
 		if (chosenstate !== "IN"){
 			var chosenStateShapes = allConstShape.filter(function (d) {
 				return d.properties.ST_NAME === chosenstate;
@@ -84,13 +86,14 @@ var j =0;
 						// className += "sc" + d.properties.ST_NAME + " ";
 						// className += "sc" + fd[0]['constituencyName'] + " ";
 						className = "c" + d.properties.PC_CODE + " ";
-						className += fd[0]['leadingParty'].toLowerCase();
+						className += fd[0]['leadingParty'].replace(/[^\w\s]/gi, '').toLowerCase();
 					} else {
 						className = "empty-color";
 					}
 				}else{
 					className = "empty-color " + d.properties.PC_NAME;
 				}
+				console.log(className)
 				return className;
 			})
 			.attr('fill', "white")
@@ -122,8 +125,8 @@ var j =0;
 
 				tooltip.classed('hidden', false)
 					.html(html)
-					.style("left", (d3.event.pageX + 10) + "px")
-					.style("top", d3.event.pageY + "px") 
+					// .style("left", (d3.event.pageX + 10) + "px")
+					// .style("top", d3.event.pageY + "px") 
 			})
 			.on("mouseout", function(d,i){
 				tooltip.classed('hidden', true)
