@@ -40,8 +40,7 @@ function map_function(options, chosenstate, mapdata){
 		.append("g")
 
 	// Add a tooltip to visualization
-	var tooltip = d3.select('body').append('div')
-		.attr('class', 'hidden tooltipblock');
+	var tooltip = d3.select('div.tooltipblock')
 
 	//Get latlong, scale info of chosenstate
 	var chosenStateInfo = getStateInfo(chosenstate);
@@ -82,9 +81,6 @@ var j =0;
 				if (fd.length > 0){
 					if (fd[0]['constituencyName'] !== undefined) {
 						//refer to scrapped info
-						// className = "cno" + d.properties.PC_CODE + " ";
-						// className += "sc" + d.properties.ST_NAME + " ";
-						// className += "sc" + fd[0]['constituencyName'] + " ";
 						className = "c" + d.properties.PC_CODE + " ";
 						className += fd[0]['leadingParty'].replace(/[^\w\s]/gi, '').toLowerCase();
 					} else {
@@ -96,10 +92,10 @@ var j =0;
 				console.log(className)
 				return className;
 			})
-			.attr('fill', "white")
 			.attr('stroke', "#666")
 			.attr('stroke-width', "0.5")
 			.attr('stroke-opacity', "0.5")
+			.attr('fill', "white")
 			.on("mouseover", function(d,i){
 				var fd = mapdata.filter(function (dataobj, i) {
 					return dataobj.constNo === d.properties.PC_CODE && dataobj.stateCode === d.properties.ST_NAME;
