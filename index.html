@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>General Elections Visualization</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://www.thehindu.com/static/theme/default/base/css/theme.min.css" />
     <style>
-        .chart{
+        /* .chart{
             width: 350px;
             height: auto;
             margin: 0 auto;
             background: #fff;
-        }
+        } */
 
         body{
             background: #ccc;
@@ -67,23 +68,159 @@
         }
 
         /* .hidden { display: none; } */
-		.tooltipblock { position: absolute; z-index: 1000; background-color: #fff; color: #333; padding: 15px;max-width: 300px;
+		.tooltipblock { /*position: absolute; z-index: 1000;*/ display:none;background-color: #fff; color: #333; padding: 15px;
 			box-shadow: 0px 0px 7px #CCCCCC; -webkit-box-shadow: 0px 0px 7px #CCCCCC; -moz-box-shadow: 0px 0px 7px #CCCCCC; }
 			.tooltipblock p{margin-bottom: 0px;}
 			.tooltipblock hr {margin-top: 5px;margin-bottom: 5px;}
 			/*path:hover { fill: transparent !important; opacity: 1!important;}*/
+        #election-visual {
+            background-color: #f5f5f5;
+        }
+
+        .fa-bars {
+            background: transparent;
+            font-size: 16px;
+            height: 31px;
+            width: 31px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 100%;
+            margin-right: 5px;
+            color: #666;
+        }
+
+        #election-visual header {
+            background-color: #133B5A;
+            color: #fff;
+        }
+
+        #vizbody, #vizfooter{
+            padding: 10px;
+        }
+
+        .pull-left{
+            float: left;
+        }
+
+        .pull-right{
+            float:right;
+        }
+
+        #vizfooter a {
+            padding: 6px;
+            font-size: 14px;
+        }
+
+        #b2014{
+            -webkit-border-top-left-radius: 5px;
+            -webkit-border-bottom-left-radius: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-bottomleft: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            background-color: #133b5a;
+            color: #fff;
+        }
+        #b2019{
+            -webkit-border-top-right-radius: 5px;
+            -webkit-border-bottom-right-radius: 5px;
+            -moz-border-radius-topright: 5px;
+            -moz-border-radius-bottomright: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: #ccc;
+            color: #333;
+            margin-left: -2px;
+        }
+
+        /* Laptop Device */
+        @media (max-width: 1599px) and (min-width: 1024px){
+
+        }
+
+        @media (max-width: 1023px){
+
+        }
+
+        @media (max-width: 767px) and (min-width: 1px){
+            #election-visual{
+                width:100%;
+            }
+
+            .tooltipblock { width: 100%;}
+        }
     </style>
 </head>
 <body>
-    <div class="state-dropdown"></div>
+    <!-- <div class="state-dropdown"></div>
     <div class="chart indiamap"></div>
-    <div class="hidden tooltipblock"></div>
+    <div class="hidden tooltipblock"></div> -->
+
+    <div id="election-visual">
+        <header>
+            <ul id="vizmenu">
+                <li>
+                    <span class="live-span">
+                        <i class="fa fa-dot-circle-o blink-active"></i>
+                    </span> 
+                    Loksabha Results
+                </li>
+                <li>
+                    <i class="fa fa-bars"></i> Assembly Elections
+                </li>
+            </ul>
+        </header>
+        <div id="vizbody">
+            <div id="viznav">
+                    <div class="state-dropdown"></div>
+                    <div id="const-list-dropdown"></div>
+                    <div id="party-list-dropdown" style="display: none;"></div>
+                    <div class="state-choice">
+                        <label style="display: block;"><input type="radio" value="1" name="myradio" onclick="readRadioBtns();" checked="checked">Constituencies</label>
+                        <label style="display: block;"><input type="radio" value="2" name="myradio" onclick="readRadioBtns();">Parties</label>
+                        <!-- <input type="radio" name="constituencies" value="constituencies"> <br>
+                        <input type="radio" name="parties" value="parties">  -->
+                    </div>
+            </div>
+            <div class="tooltipblock">
+                <button id="closeButton">x</button>
+                <div id="clickedcontent"></div>
+            </div>
+            <div class="chart indiamap"></div>
+        </div>
+        <div id="vizfooter">
+            <p class="pull-left">Source: <a href="#">ECI</a></p>
+            <p class="pull-right">
+                <a href="#" id="b2014">2014</a>
+                <a href="#" id="b2019">2019</a>
+            </p>
+        </div>
+
+    </div>
 
     <script src="http://www.thehindu.com/static/js/jquery-1.10.2.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
     <script src="static/chart/topo-map.js"></script>
+    <script src="static/chart/utilities.js"></script>
     <script>
+
+        function readRadioBtns(){
+            var type = document.getElementsByName("myradio")
+            if(type[0].checked){
+                // alert('human')
+                d3.select('#const-list-dropdown').style('display', 'block')
+                d3.select('#party-list-dropdown').style('display', 'none')
+            }else if(type[1].checked){
+                // alert('robot')
+                d3.select('#const-list-dropdown').style('display', 'none')
+                d3.select('#party-list-dropdown').style('display', 'block')
+
+            }
+        }
+
+        
+
 
          var loksabha_2019 = {
                 htmlElement: ".indiamap",
@@ -108,29 +245,51 @@
                 });
                 return data2014;
             })(); 
+           
+            var allConstList = (function () {
+                var allConstList = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/constituency-list.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        allConstList = data;
+                    }
+                });
+                return allConstList;
+            })(); 
+            
+            var allPartiesList = (function () {
+                var allPartiesList = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': 'data/parties-list.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        allPartiesList = data;
+                    }
+                });
+                return allPartiesList;
+            })(); 
 
         var stateInfo =  [{ "STATE": "India", "STATE_CODE": "IN", "SCALE": 800, "CENTER": [83, 23] }, { "STATE": "Tamil Nadu", "STATE_CODE": "TN", "SCALE": 4800, "CENTER": [78.4, 10.9] }, { "STATE": "Andhra Pradesh", "STATE_CODE": "AP", "SCALE": 2500, "CENTER": [80.8, 16] }, { "STATE": "Arunachal Pradesh", "STATE_CODE": "AR", "SCALE": 3500, "CENTER": [94.7, 28] }, { "STATE": "Assam", "STATE_CODE": "AS", "SCALE": 3500, "CENTER": [92.9, 26] }, { "STATE": "Bihar", "STATE_CODE": "BR", "SCALE": 4000, "CENTER": [86, 25] }, { "STATE": "Chhattisgarh", "STATE_CODE": "CG", "SCALE": 3000, "CENTER": [81.8, 21] }, { "STATE": "Goa", "STATE_CODE": "GA", "SCALE": 15000, "CENTER": [74, 15.5] }, { "STATE": "Gujarat", "STATE_CODE": "GJ", "SCALE": 3000, "CENTER": [71, 22] }, { "STATE": "Haryana", "STATE_CODE": "HR", "SCALE": 5000, "CENTER": [76, 29.5] }, { "STATE": "Himachal Pradesh", "STATE_CODE": "HP", "SCALE": 5000, "CENTER": [77, 32] }, { "STATE": "Jammu and Kashmir", "STATE_CODE": "JK", "SCALE": 2000, "CENTER": [74.8, 32.7] }, { "STATE": "Jharkhand", "STATE_CODE": "JH", "SCALE": 2500, "CENTER": [85, 23.6] }, { "STATE": "Karnataka", "STATE_CODE": "KA", "SCALE": 2000, "CENTER": [75.7, 15] }, { "STATE": "Kerala", "STATE_CODE": "KL", "SCALE": 4000, "CENTER": [76, 10.8] }, { "STATE": "Madya Pradesh", "STATE_CODE": "MP", "SCALE": 2000, "CENTER": [78.6, 22.9] }, { "STATE": "Maharashtra", "STATE_CODE": "MH", "SCALE": 2000, "CENTER": [75.7, 19.7] }, { "STATE": "Manipur", "STATE_CODE": "MN", "SCALE": 4000, "CENTER": [93.9, 24.6] }, { "STATE": "Meghalaya", "STATE_CODE": "ML", "SCALE": 4000, "CENTER": [91, 25] }, { "STATE": "Mizoram", "STATE_CODE": "MZ", "SCALE": 4000, "CENTER": [92.9, 23] }, { "STATE": "Nagaland", "STATE_CODE": "NL", "SCALE": 5500, "CENTER": [94, 26] }, { "STATE": "Odisha", "STATE_CODE": "OD", "SCALE": 2500, "CENTER": [85, 20.9] }, { "STATE": "Punjab", "STATE_CODE": "PB", "SCALE": 4500, "CENTER": [75.2, 31] }, { "STATE": "Rajasthan", "STATE_CODE": "RJ", "SCALE": 2000, "CENTER": [74, 27] }, { "STATE": "Sikkim", "STATE_CODE": "SK", "SCALE": 8000, "CENTER": [88.5, 27.5] }, { "STATE": "Telangana", "STATE_CODE": "TS", "SCALE": 2000, "CENTER": [79, 18] }, { "STATE": "Tripura", "STATE_CODE": "TR", "SCALE": 10000, "CENTER": [91.9, 23.9] }, { "STATE": "Uttarakhand", "STATE_CODE": "UK", "SCALE": 5000, "CENTER": [79, 30] }, { "STATE": "Uttar Pradesh", "STATE_CODE": "UP", "SCALE": 2500, "CENTER": [80.9, 27.8] }, { "STATE": "West Bengal", "STATE_CODE": "WB", "SCALE": 3500, "CENTER": [87.8, 24.5] }, { "STATE": "Andaman and Nicobar Islands", "STATE_CODE": "AN", "SCALE": 3000, "CENTER": [92.6, 10.5] }, { "STATE": "Chandigarh", "STATE_CODE": "CH", "SCALE": 16000, "CENTER": [76.7, 30.7] }, { "STATE": "Dadar and Nagar Haveli", "STATE_CODE": "DN", "SCALE": 22000, "CENTER": [73, 20.2] }, { "STATE": "Daman and Diu", "STATE_CODE": "DD", "SCALE": 10000, "CENTER": [72, 20] }, { "STATE": "Delhi", "STATE_CODE": "DL", "SCALE": 30000, "CENTER": [77.1, 28.7] }, { "STATE": "Lakshadeep", "STATE_CODE": "LD", "SCALE": 14000, "CENTER": [73, 11] }, { "STATE": "Puducherry", "STATE_CODE": "PY", "SCALE": 15000, "CENTER": [79.8, 11.5] }];
+
+
+        //Generate dropdown list of all states in India
+        createDropdownsState('.state-dropdown', stateInfo, 'getStateCode();', "STATE_CODE", "STATE");
         
+        //Generate dropdown list of all Parties in India
+        createDropdownsParties('#party-list-dropdown', filterPartyList("IN"), 'searchByParties(event);', "PARTY_NAME")
+        
+        //Generate dropdown list of all constituencies for All India
+        createDropdownsConst('#const-list-dropdown', allConstList, 'searchByConst(event);', "PC_CODE", "PC_NAME", "ST_NAME");
 
-        function createDropdowns(selection, ddData, callFunc){
-            var select = d3.select(selection)
-                .append('select')
-                .attr('class', 'select')
-                .attr('onchange', callFunc)
-                .attr('id', 'showbystate')
-
-            var options = select
-                .selectAll('option')
-                .data(ddData).enter()
-                .append('option')
-                .attr("value", function (d) { return d.STATE_CODE; })
-                .text(function (d) { return d.STATE; });
-        }
-
-
-        createDropdowns('.state-dropdown', stateInfo, 'getStateCode();');
-
+        //Draw the map once loaded or reloaded to display all India Map
         map_function(loksabha_2019, "IN", data2014);
+
+
                 
                 
     </script>

@@ -1,0 +1,637 @@
+[
+    {
+        "ST_CODE": "S00",
+        "ST_NAME": "IN",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S00",
+        "ST_NAME": "IN",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S00",
+        "ST_NAME": "IN",
+        "PARTY_NAME": "AITMC"
+    },
+    {
+        "ST_CODE": "S00",
+        "ST_NAME": "IN",
+        "PARTY_NAME": "CPIM"
+    },
+    {
+        "ST_CODE": "S00",
+        "ST_NAME": "IN",
+        "PARTY_NAME": "NCP"
+    },
+    {
+        "ST_CODE": "S00",
+        "ST_NAME": "IN",
+        "PARTY_NAME": "BSP"
+    },
+    {
+        "ST_CODE": "S01",
+        "ST_NAME": "AP",
+        "PARTY_NAME": "TDP"
+    },
+    {
+        "ST_CODE": "S01",
+        "ST_NAME": "AP",
+        "PARTY_NAME": "YSRCP"
+    },
+    {
+        "ST_CODE": "S01",
+        "ST_NAME": "AP",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S01",
+        "ST_NAME": "AP",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S01",
+        "ST_NAME": "AP",
+        "PARTY_NAME": "CPI"
+    },
+    {
+        "ST_CODE": "S01",
+        "ST_NAME": "AP",
+        "PARTY_NAME": "CPIM"
+    },
+    {
+        "ST_CODE": "S02",
+        "ST_NAME": "AR",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S02",
+        "ST_NAME": "AR",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S02",
+        "ST_NAME": "AR",
+        "PARTY_NAME": "PPA"
+    },
+    {
+        "ST_CODE": "S02",
+        "ST_NAME": "AR",
+        "PARTY_NAME": "NPP"
+    },
+    {
+        "ST_CODE": "S03",
+        "ST_NAME": "AS",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S03",
+        "ST_NAME": "AS",
+        "PARTY_NAME": "AGP"
+    },
+    {
+        "ST_CODE": "S03",
+        "ST_NAME": "AS",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S03",
+        "ST_NAME": "AS",
+        "PARTY_NAME": "AIUDF"
+    },
+    {
+        "ST_CODE": "S04",
+        "ST_NAME": "BR",
+        "PARTY_NAME": "RJD"
+    },
+    {
+        "ST_CODE": "S04",
+        "ST_NAME": "BR",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S04",
+        "ST_NAME": "BR",
+        "PARTY_NAME": "LJP"
+    },
+    {
+        "ST_CODE": "S04",
+        "ST_NAME": "BR",
+        "PARTY_NAME": "HAMS"
+    },
+    {
+        "ST_CODE": "S04",
+        "ST_NAME": "BR",
+        "PARTY_NAME": "CPIML"
+    },
+    {
+        "ST_CODE": "S04",
+        "ST_NAME": "BR",
+        "PARTY_NAME": "JDU"
+    },
+    {
+        "ST_CODE": "S04",
+        "ST_NAME": "BR",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S05",
+        "ST_NAME": "GA",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S05",
+        "ST_NAME": "GA",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S06",
+        "ST_NAME": "GJ",
+        "PARTY_NAME": "BSP"
+    },
+    {
+        "ST_CODE": "S07",
+        "ST_NAME": "HR",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S07",
+        "ST_NAME": "HR",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S07",
+        "ST_NAME": "HR",
+        "PARTY_NAME": "HJC"
+    },
+    {
+        "ST_CODE": "S07",
+        "ST_NAME": "HR",
+        "PARTY_NAME": "HVP"
+    },
+    {
+        "ST_CODE": "S08",
+        "ST_NAME": "HP",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S08",
+        "ST_NAME": "HP",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S08",
+        "ST_NAME": "HP",
+        "PARTY_NAME": "CPIM"
+    },
+    {
+        "ST_CODE": "S09",
+        "ST_NAME": "JK",
+        "PARTY_NAME": "NC"
+    },
+    {
+        "ST_CODE": "S09",
+        "ST_NAME": "JK",
+        "PARTY_NAME": "PDP"
+    },
+    {
+        "ST_CODE": "S09",
+        "ST_NAME": "JK",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S09",
+        "ST_NAME": "JK",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S10",
+        "ST_NAME": "KA",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S10",
+        "ST_NAME": "KA",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S10",
+        "ST_NAME": "KA",
+        "PARTY_NAME": "JDS"
+    },
+    {
+        "ST_CODE": "S11",
+        "ST_NAME": "KL",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S11",
+        "ST_NAME": "KL",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S11",
+        "ST_NAME": "KL",
+        "PARTY_NAME": "CPI"
+    },
+    {
+        "ST_CODE": "S11",
+        "ST_NAME": "KL",
+        "PARTY_NAME": "CPIM"
+    },
+    {
+        "ST_CODE": "S11",
+        "ST_NAME": "KL",
+        "PARTY_NAME": "IUML"
+    },
+    {
+        "ST_CODE": "S12",
+        "ST_NAME": "MP",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S12",
+        "ST_NAME": "MP",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S12",
+        "ST_NAME": "MP",
+        "PARTY_NAME": "BSP"
+    },
+    {
+        "ST_CODE": "S13",
+        "ST_NAME": "MH",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S13",
+        "ST_NAME": "MH",
+        "PARTY_NAME": "NCP"
+    },
+    {
+        "ST_CODE": "S13",
+        "ST_NAME": "MH",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S13",
+        "ST_NAME": "MH",
+        "PARTY_NAME": "SS"
+    },
+    {
+        "ST_CODE": "S13",
+        "ST_NAME": "MH",
+        "PARTY_NAME": "AIMIM"
+    },
+    {
+        "ST_CODE": "S15",
+        "ST_NAME": "ML",
+        "PARTY_NAME": "NPP"
+    },
+    {
+        "ST_CODE": "S15",
+        "ST_NAME": "ML",
+        "PARTY_NAME": "UDF"
+    },
+    {
+        "ST_CODE": "S15",
+        "ST_NAME": "ML",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S15",
+        "ST_NAME": "ML",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S16",
+        "ST_NAME": "MZ",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S16",
+        "ST_NAME": "MZ",
+        "PARTY_NAME": "MNF"
+    },
+    {
+        "ST_CODE": "S16",
+        "ST_NAME": "MZ",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S17",
+        "ST_NAME": "NL",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S17",
+        "ST_NAME": "NL",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S17",
+        "ST_NAME": "NL",
+        "PARTY_NAME": "NDPP"
+    },
+    {
+        "ST_CODE": "S18",
+        "ST_NAME": "OD",
+        "PARTY_NAME": "BJD"
+    },
+    {
+        "ST_CODE": "S18",
+        "ST_NAME": "OD",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S18",
+        "ST_NAME": "OD",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S19",
+        "ST_NAME": "PB",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S19",
+        "ST_NAME": "PB",
+        "PARTY_NAME": "AAP"
+    },
+    {
+        "ST_CODE": "S19",
+        "ST_NAME": "PB",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S19",
+        "ST_NAME": "PB",
+        "PARTY_NAME": "SAD"
+    },
+    {
+        "ST_CODE": "S20",
+        "ST_NAME": "RJ",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S20",
+        "ST_NAME": "RJ",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S21",
+        "ST_NAME": "SK",
+        "PARTY_NAME": "SDF"
+    },
+    {
+        "ST_CODE": "S21",
+        "ST_NAME": "SK",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "AIADMK"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "DMK"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "PMK"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "VCK"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "AMMK"
+    },
+    {
+        "ST_CODE": "S22",
+        "ST_NAME": "TN",
+        "PARTY_NAME": "MNM"
+    },
+    {
+        "ST_CODE": "S23",
+        "ST_NAME": "TR",
+        "PARTY_NAME": "CPIM"
+    },
+    {
+        "ST_CODE": "S23",
+        "ST_NAME": "TR",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S23",
+        "ST_NAME": "TR",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S24",
+        "ST_NAME": "UP",
+        "PARTY_NAME": "BSP"
+    },
+    {
+        "ST_CODE": "S24",
+        "ST_NAME": "UP",
+        "PARTY_NAME": "SP"
+    },
+    {
+        "ST_CODE": "S24",
+        "ST_NAME": "UP",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S24",
+        "ST_NAME": "UP",
+        "PARTY_NAME": "AD"
+    },
+    {
+        "ST_CODE": "S24",
+        "ST_NAME": "UP",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S25",
+        "ST_NAME": "WB",
+        "PARTY_NAME": "AITMC"
+    },
+    {
+        "ST_CODE": "S25",
+        "ST_NAME": "WB",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S25",
+        "ST_NAME": "WB",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S25",
+        "ST_NAME": "WB",
+        "PARTY_NAME": "CPIM"
+    },
+    {
+        "ST_CODE": "S25",
+        "ST_NAME": "WB",
+        "PARTY_NAME": "CPI"
+    },
+    {
+        "ST_CODE": "S26",
+        "ST_NAME": "CG",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S26",
+        "ST_NAME": "CG",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S26",
+        "ST_NAME": "CG",
+        "PARTY_NAME": "BSP"
+    },
+    {
+        "ST_CODE": "S27",
+        "ST_NAME": "JH",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S27",
+        "ST_NAME": "JH",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S27",
+        "ST_NAME": "JH",
+        "PARTY_NAME": "JMM"
+    },
+    {
+        "ST_CODE": "S27",
+        "ST_NAME": "JH",
+        "PARTY_NAME": "BSP"
+    },
+    {
+        "ST_CODE": "S28",
+        "ST_NAME": "UK",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S28",
+        "ST_NAME": "UK",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "S29",
+        "ST_NAME": "TS",
+        "PARTY_NAME": "TRS"
+    },
+    {
+        "ST_CODE": "S29",
+        "ST_NAME": "TS",
+        "PARTY_NAME": "AIMIM"
+    },
+    {
+        "ST_CODE": "S29",
+        "ST_NAME": "TS",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "S29",
+        "ST_NAME": "TS",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "U01",
+        "ST_NAME": "AN",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "U01",
+        "ST_NAME": "AN",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "U02",
+        "ST_NAME": "CH",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "U02",
+        "ST_NAME": "CH",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "U03",
+        "ST_NAME": "DN",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "U03",
+        "ST_NAME": "DN",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "U04",
+        "ST_NAME": "DD",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "U04",
+        "ST_NAME": "DD",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "U05",
+        "ST_NAME": "DL",
+        "PARTY_NAME": "AAP"
+    },
+    {
+        "ST_CODE": "U05",
+        "ST_NAME": "DL",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "U05",
+        "ST_NAME": "DL",
+        "PARTY_NAME": "BJP"
+    },
+    {
+        "ST_CODE": "U06",
+        "ST_NAME": "LD",
+        "PARTY_NAME": "NCP"
+    },
+    {
+        "ST_CODE": "U06",
+        "ST_NAME": "LD",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "U07",
+        "ST_NAME": "PY",
+        "PARTY_NAME": "INC"
+    },
+    {
+        "ST_CODE": "U07",
+        "ST_NAME": "PY",
+        "PARTY_NAME": "AINRC"
+    }
+]

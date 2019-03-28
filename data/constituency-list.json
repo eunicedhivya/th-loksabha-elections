@@ -1,0 +1,3803 @@
+[
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Araku",
+        "ST_CODE": "S01",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Srikakulam",
+        "ST_CODE": "S01",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Vizianagaram",
+        "ST_CODE": "S01",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Visakhapatnam",
+        "ST_CODE": "S01",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Anakapalli",
+        "ST_CODE": "S01",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Kakinada",
+        "ST_CODE": "S01",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Amlapuram",
+        "ST_CODE": "S01",
+        "PC_CODE": 7,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Rajahmundry",
+        "ST_CODE": "S01",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Narsapuram",
+        "ST_CODE": "S01",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Eluru",
+        "ST_CODE": "S01",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Machilipatnam",
+        "ST_CODE": "S01",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Vijayawada",
+        "ST_CODE": "S01",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Guntur",
+        "ST_CODE": "S01",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Narasaraopet",
+        "ST_CODE": "S01",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Bapatla",
+        "ST_CODE": "S01",
+        "PC_CODE": 15,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Ongole",
+        "ST_CODE": "S01",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Nandyal",
+        "ST_CODE": "S01",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Kurnool",
+        "ST_CODE": "S01",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Anantapur",
+        "ST_CODE": "S01",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Hindupur",
+        "ST_CODE": "S01",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Kadapa",
+        "ST_CODE": "S01",
+        "PC_CODE": 21,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Nellore",
+        "ST_CODE": "S01",
+        "PC_CODE": 22,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Tirupati",
+        "ST_CODE": "S01",
+        "PC_CODE": 23,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Rajampet",
+        "ST_CODE": "S01",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AP",
+        "PC_NAME": "Chittoor",
+        "ST_CODE": "S01",
+        "PC_CODE": 25,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "AR",
+        "PC_NAME": "Arunachal West",
+        "ST_CODE": "S02",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AR",
+        "PC_NAME": "Arunachal East",
+        "ST_CODE": "S02",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Karimganj",
+        "ST_CODE": "S03",
+        "PC_CODE": 1,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Silchar",
+        "ST_CODE": "S03",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Autonomous District",
+        "ST_CODE": "S03",
+        "PC_CODE": 3,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Dhubri",
+        "ST_CODE": "S03",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Kokrajhar",
+        "ST_CODE": "S03",
+        "PC_CODE": 5,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Barpeta",
+        "ST_CODE": "S03",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Guwahati",
+        "ST_CODE": "S03",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Mangaldoi",
+        "ST_CODE": "S03",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Tezpur",
+        "ST_CODE": "S03",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Nagaon",
+        "ST_CODE": "S03",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Kaliabor",
+        "ST_CODE": "S03",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Jorhat",
+        "ST_CODE": "S03",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Dibrugarh",
+        "ST_CODE": "S03",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AS",
+        "PC_NAME": "Lakhimpur",
+        "ST_CODE": "S03",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Valmiki Nagar",
+        "ST_CODE": "S04",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Pashchim Champaran",
+        "ST_CODE": "S04",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Purba Champaran",
+        "ST_CODE": "S04",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Sheohar",
+        "ST_CODE": "S04",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Sitamarhi",
+        "ST_CODE": "S04",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Madhubani",
+        "ST_CODE": "S04",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Jhanjharpur",
+        "ST_CODE": "S04",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Supaul",
+        "ST_CODE": "S04",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Araria",
+        "ST_CODE": "S04",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Kishanganj",
+        "ST_CODE": "S04",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Katihar",
+        "ST_CODE": "S04",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Purnia",
+        "ST_CODE": "S04",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Madhepura",
+        "ST_CODE": "S04",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Darbhanga",
+        "ST_CODE": "S04",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Muzaffarpur",
+        "ST_CODE": "S04",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Vaishali",
+        "ST_CODE": "S04",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Gopalganj",
+        "ST_CODE": "S04",
+        "PC_CODE": 17,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Siwan",
+        "ST_CODE": "S04",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Maharajganj",
+        "ST_CODE": "S04",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Saran (Chhapra)",
+        "ST_CODE": "S04",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Hajipur",
+        "ST_CODE": "S04",
+        "PC_CODE": 21,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Ujiapur",
+        "ST_CODE": "S04",
+        "PC_CODE": 22,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Samastipur",
+        "ST_CODE": "S04",
+        "PC_CODE": 23,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Begusarai",
+        "ST_CODE": "S04",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Khagaria",
+        "ST_CODE": "S04",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Bhagalpur",
+        "ST_CODE": "S04",
+        "PC_CODE": 26,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Banka",
+        "ST_CODE": "S04",
+        "PC_CODE": 27,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Munger",
+        "ST_CODE": "S04",
+        "PC_CODE": 28,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Nalanda",
+        "ST_CODE": "S04",
+        "PC_CODE": 29,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Patna Sahib",
+        "ST_CODE": "S04",
+        "PC_CODE": 30,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Pataliputra",
+        "ST_CODE": "S04",
+        "PC_CODE": 31,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Arrah",
+        "ST_CODE": "S04",
+        "PC_CODE": 32,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Buxar",
+        "ST_CODE": "S04",
+        "PC_CODE": 33,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Sasaram",
+        "ST_CODE": "S04",
+        "PC_CODE": 34,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Karakat",
+        "ST_CODE": "S04",
+        "PC_CODE": 35,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Jahanabad",
+        "ST_CODE": "S04",
+        "PC_CODE": 36,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Aurangabad",
+        "ST_CODE": "S04",
+        "PC_CODE": 37,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Gaya",
+        "ST_CODE": "S04",
+        "PC_CODE": 38,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Nawada",
+        "ST_CODE": "S04",
+        "PC_CODE": 39,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "BR",
+        "PC_NAME": "Jamui",
+        "ST_CODE": "S04",
+        "PC_CODE": 40,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "GA",
+        "PC_NAME": "North Goa",
+        "ST_CODE": "S05",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GA",
+        "PC_NAME": "South Goa",
+        "ST_CODE": "S05",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Kachchh",
+        "ST_CODE": "S06",
+        "PC_CODE": 1,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Banas Kantha",
+        "ST_CODE": "S06",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Patan",
+        "ST_CODE": "S06",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Mahesana",
+        "ST_CODE": "S06",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Sabar Kantha",
+        "ST_CODE": "S06",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Gandhinagar",
+        "ST_CODE": "S06",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Ahmadabad (East)",
+        "ST_CODE": "S06",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Ahmadabad (West)",
+        "ST_CODE": "S06",
+        "PC_CODE": 8,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Surendranagar",
+        "ST_CODE": "S06",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Rajkot",
+        "ST_CODE": "S06",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Porbandar",
+        "ST_CODE": "S06",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Jamnagar",
+        "ST_CODE": "S06",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Junagadh",
+        "ST_CODE": "S06",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Amreli",
+        "ST_CODE": "S06",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Bhavnagar",
+        "ST_CODE": "S06",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Anand",
+        "ST_CODE": "S06",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Kheda",
+        "ST_CODE": "S06",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Panch Mahals",
+        "ST_CODE": "S06",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Dohad",
+        "ST_CODE": "S06",
+        "PC_CODE": 19,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Vadodara",
+        "ST_CODE": "S06",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Chhota Udaipur",
+        "ST_CODE": "S06",
+        "PC_CODE": 21,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Bharuch",
+        "ST_CODE": "S06",
+        "PC_CODE": 22,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Bardoli",
+        "ST_CODE": "S06",
+        "PC_CODE": 23,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Surat",
+        "ST_CODE": "S06",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Navsari",
+        "ST_CODE": "S06",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "GJ",
+        "PC_NAME": "Valsad",
+        "ST_CODE": "S06",
+        "PC_CODE": 26,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Ambala",
+        "ST_CODE": "S07",
+        "PC_CODE": 1,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Krukshetra",
+        "ST_CODE": "S07",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Sirsa",
+        "ST_CODE": "S07",
+        "PC_CODE": 3,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Hisar",
+        "ST_CODE": "S07",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Karnal",
+        "ST_CODE": "S07",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Sonipat",
+        "ST_CODE": "S07",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Rohtak",
+        "ST_CODE": "S07",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Bhiwani - Mahendragarh",
+        "ST_CODE": "S07",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Gurgaon",
+        "ST_CODE": "S07",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HR",
+        "PC_NAME": "Faridabad",
+        "ST_CODE": "S07",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HP",
+        "PC_NAME": "Kangra",
+        "ST_CODE": "S08",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HP",
+        "PC_NAME": "Mandi",
+        "ST_CODE": "S08",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HP",
+        "PC_NAME": "Hamirpur",
+        "ST_CODE": "S08",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "HP",
+        "PC_NAME": "Shimla",
+        "ST_CODE": "S08",
+        "PC_CODE": 4,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "JK",
+        "PC_NAME": "Baramula",
+        "ST_CODE": "S09",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JK",
+        "PC_NAME": "Srinagar",
+        "ST_CODE": "S09",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JK",
+        "PC_NAME": "Anantnag",
+        "ST_CODE": "S09",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JK",
+        "PC_NAME": "Leh (Ladakh)",
+        "ST_CODE": "S09",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JK",
+        "PC_NAME": "Udhampur",
+        "ST_CODE": "S09",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JK",
+        "PC_NAME": "Jammu",
+        "ST_CODE": "S09",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Chikkodi",
+        "ST_CODE": "S10",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Belgaum",
+        "ST_CODE": "S10",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bagalkot",
+        "ST_CODE": "S10",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bijapur",
+        "ST_CODE": "S10",
+        "PC_CODE": 4,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Gulbarga",
+        "ST_CODE": "S10",
+        "PC_CODE": 5,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Raichur",
+        "ST_CODE": "S10",
+        "PC_CODE": 6,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bidar",
+        "ST_CODE": "S10",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Koppal",
+        "ST_CODE": "S10",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bellary",
+        "ST_CODE": "S10",
+        "PC_CODE": 9,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Haveri",
+        "ST_CODE": "S10",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Dharwad",
+        "ST_CODE": "S10",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Uttara Kannada",
+        "ST_CODE": "S10",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Davanagere",
+        "ST_CODE": "S10",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Shimoga",
+        "ST_CODE": "S10",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Udupi Chikmagalur",
+        "ST_CODE": "S10",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Hassan",
+        "ST_CODE": "S10",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Dakshina Kannada",
+        "ST_CODE": "S10",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Chitradurga",
+        "ST_CODE": "S10",
+        "PC_CODE": 18,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Tumkur",
+        "ST_CODE": "S10",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Mandya",
+        "ST_CODE": "S10",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Mysore",
+        "ST_CODE": "S10",
+        "PC_CODE": 21,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Chamrajnagar",
+        "ST_CODE": "S10",
+        "PC_CODE": 22,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bangalore Rural",
+        "ST_CODE": "S10",
+        "PC_CODE": 23,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bangalore North",
+        "ST_CODE": "S10",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bangalore Central",
+        "ST_CODE": "S10",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Bangalore South",
+        "ST_CODE": "S10",
+        "PC_CODE": 26,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Chikkaballapura",
+        "ST_CODE": "S10",
+        "PC_CODE": 27,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KA",
+        "PC_NAME": "Kolar",
+        "ST_CODE": "S10",
+        "PC_CODE": 28,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Kasaragod",
+        "ST_CODE": "S11",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Kannur",
+        "ST_CODE": "S11",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Vadakara",
+        "ST_CODE": "S11",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Wayanad",
+        "ST_CODE": "S11",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Kozhikode",
+        "ST_CODE": "S11",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Malappuram",
+        "ST_CODE": "S11",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Ponnani",
+        "ST_CODE": "S11",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Palakkad",
+        "ST_CODE": "S11",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Alathur",
+        "ST_CODE": "S11",
+        "PC_CODE": 9,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Thrissur",
+        "ST_CODE": "S11",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Chalakudy",
+        "ST_CODE": "S11",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Ernakulam",
+        "ST_CODE": "S11",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Idukki",
+        "ST_CODE": "S11",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Kottayam",
+        "ST_CODE": "S11",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Alappuzha",
+        "ST_CODE": "S11",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Mavelikkara",
+        "ST_CODE": "S11",
+        "PC_CODE": 16,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Pathanamthitta",
+        "ST_CODE": "S11",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Kollam",
+        "ST_CODE": "S11",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Attingal",
+        "ST_CODE": "S11",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "KL",
+        "PC_NAME": "Thiruvananthapuram",
+        "ST_CODE": "S11",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Morena",
+        "ST_CODE": "S12",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Bhind",
+        "ST_CODE": "S12",
+        "PC_CODE": 2,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Gwalior",
+        "ST_CODE": "S12",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Guna",
+        "ST_CODE": "S12",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Sagar",
+        "ST_CODE": "S12",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Tikamgarh",
+        "ST_CODE": "S12",
+        "PC_CODE": 6,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Damoh",
+        "ST_CODE": "S12",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Khajuraho",
+        "ST_CODE": "S12",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Satna",
+        "ST_CODE": "S12",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Rewa",
+        "ST_CODE": "S12",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Sidhi",
+        "ST_CODE": "S12",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Shahdol",
+        "ST_CODE": "S12",
+        "PC_CODE": 12,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Jabalpur",
+        "ST_CODE": "S12",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Mandla",
+        "ST_CODE": "S12",
+        "PC_CODE": 14,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Balaghat",
+        "ST_CODE": "S12",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Chhindwara",
+        "ST_CODE": "S12",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Hoshangabad",
+        "ST_CODE": "S12",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Vidisha",
+        "ST_CODE": "S12",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Bhopal",
+        "ST_CODE": "S12",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Rajgarh",
+        "ST_CODE": "S12",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Dewas",
+        "ST_CODE": "S12",
+        "PC_CODE": 21,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Ujjain",
+        "ST_CODE": "S12",
+        "PC_CODE": 22,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Mandsaur",
+        "ST_CODE": "S12",
+        "PC_CODE": 23,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Ratlam",
+        "ST_CODE": "S12",
+        "PC_CODE": 24,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Dhar",
+        "ST_CODE": "S12",
+        "PC_CODE": 25,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Indore",
+        "ST_CODE": "S12",
+        "PC_CODE": 26,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Khargone",
+        "ST_CODE": "S12",
+        "PC_CODE": 27,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Khandwa",
+        "ST_CODE": "S12",
+        "PC_CODE": 28,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MP",
+        "PC_NAME": "Betul",
+        "ST_CODE": "S12",
+        "PC_CODE": 29,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Nandurbar",
+        "ST_CODE": "S13",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Dhule",
+        "ST_CODE": "S13",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Jalgaon",
+        "ST_CODE": "S13",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Raver",
+        "ST_CODE": "S13",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Buldana",
+        "ST_CODE": "S13",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Akola",
+        "ST_CODE": "S13",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Amravati",
+        "ST_CODE": "S13",
+        "PC_CODE": 7,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Wardha",
+        "ST_CODE": "S13",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Ramtek",
+        "ST_CODE": "S13",
+        "PC_CODE": 9,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Nagpur",
+        "ST_CODE": "S13",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Bhandara - Gondiya",
+        "ST_CODE": "S13",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Garhchiroli - Chimur",
+        "ST_CODE": "S13",
+        "PC_CODE": 12,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Chandrapur",
+        "ST_CODE": "S13",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Yavatmal - Washim",
+        "ST_CODE": "S13",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Hingoli",
+        "ST_CODE": "S13",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Nanded",
+        "ST_CODE": "S13",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Parbhani",
+        "ST_CODE": "S13",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Jalna",
+        "ST_CODE": "S13",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Aurangabad",
+        "ST_CODE": "S13",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Dindori",
+        "ST_CODE": "S13",
+        "PC_CODE": 20,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Nashik",
+        "ST_CODE": "S13",
+        "PC_CODE": 21,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Palghar",
+        "ST_CODE": "S13",
+        "PC_CODE": 22,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Biwandi",
+        "ST_CODE": "S13",
+        "PC_CODE": 23,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Kalyan",
+        "ST_CODE": "S13",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Thane",
+        "ST_CODE": "S13",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Mumbai North",
+        "ST_CODE": "S13",
+        "PC_CODE": 26,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Mumbai North-West",
+        "ST_CODE": "S13",
+        "PC_CODE": 27,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Mumbai North-East",
+        "ST_CODE": "S13",
+        "PC_CODE": 28,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Mumbai North-Central",
+        "ST_CODE": "S13",
+        "PC_CODE": 29,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Mumbai South-Central",
+        "ST_CODE": "S13",
+        "PC_CODE": 30,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Mumbai South",
+        "ST_CODE": "S13",
+        "PC_CODE": 31,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Raigarh",
+        "ST_CODE": "S13",
+        "PC_CODE": 32,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Maval",
+        "ST_CODE": "S13",
+        "PC_CODE": 33,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Pune",
+        "ST_CODE": "S13",
+        "PC_CODE": 34,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Baramati",
+        "ST_CODE": "S13",
+        "PC_CODE": 35,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Shirur",
+        "ST_CODE": "S13",
+        "PC_CODE": 36,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Ahmadnagar",
+        "ST_CODE": "S13",
+        "PC_CODE": 37,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Shirdi",
+        "ST_CODE": "S13",
+        "PC_CODE": 38,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Beed",
+        "ST_CODE": "S13",
+        "PC_CODE": 39,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Osmanabad",
+        "ST_CODE": "S13",
+        "PC_CODE": 40,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Latur",
+        "ST_CODE": "S13",
+        "PC_CODE": 41,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Solapur",
+        "ST_CODE": "S13",
+        "PC_CODE": 42,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Madha",
+        "ST_CODE": "S13",
+        "PC_CODE": 43,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Sangli",
+        "ST_CODE": "S13",
+        "PC_CODE": 44,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Satara",
+        "ST_CODE": "S13",
+        "PC_CODE": 45,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Ratnagiri - Sindhudurg",
+        "ST_CODE": "S13",
+        "PC_CODE": 46,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Kolhapur",
+        "ST_CODE": "S13",
+        "PC_CODE": 47,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MH",
+        "PC_NAME": "Hatkanangle",
+        "ST_CODE": "S13",
+        "PC_CODE": 48,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MN",
+        "PC_NAME": "Inner Manipur",
+        "ST_CODE": "S14",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "MN",
+        "PC_NAME": "Outer Manipur",
+        "ST_CODE": "S14",
+        "PC_CODE": 2,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "ML",
+        "PC_NAME": "Shillong",
+        "ST_CODE": "S15",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "ML",
+        "PC_NAME": "Tura",
+        "ST_CODE": "S15",
+        "PC_CODE": 2,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "MZ",
+        "PC_NAME": "Mizoram",
+        "ST_CODE": "S16",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "NL",
+        "PC_NAME": "Nagaland",
+        "ST_CODE": "S17",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Bargarh",
+        "ST_CODE": "S18",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Sundargarh",
+        "ST_CODE": "S18",
+        "PC_CODE": 2,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Sambalpur",
+        "ST_CODE": "S18",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Kendujhar",
+        "ST_CODE": "S18",
+        "PC_CODE": 4,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Mayurbhanj",
+        "ST_CODE": "S18",
+        "PC_CODE": 5,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Baleshwar",
+        "ST_CODE": "S18",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Bhadrak",
+        "ST_CODE": "S18",
+        "PC_CODE": 7,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Jajapur",
+        "ST_CODE": "S18",
+        "PC_CODE": 8,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Dhenkanal",
+        "ST_CODE": "S18",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Bolangir",
+        "ST_CODE": "S18",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Kalahandi",
+        "ST_CODE": "S18",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Nabarangapur",
+        "ST_CODE": "S18",
+        "PC_CODE": 12,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Kandhamal",
+        "ST_CODE": "S18",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Cuttack",
+        "ST_CODE": "S18",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Kendrapara",
+        "ST_CODE": "S18",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Jagatsinghpur",
+        "ST_CODE": "S18",
+        "PC_CODE": 16,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Puri",
+        "ST_CODE": "S18",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Bhubaneswar",
+        "ST_CODE": "S18",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Aska",
+        "ST_CODE": "S18",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Berhampur.",
+        "ST_CODE": "S18",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "OD",
+        "PC_NAME": "Koraput",
+        "ST_CODE": "S18",
+        "PC_CODE": 21,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Gurdaspur",
+        "ST_CODE": "S19",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Amritsar",
+        "ST_CODE": "S19",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Khadoor Sahib",
+        "ST_CODE": "S19",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Jalandhar",
+        "ST_CODE": "S19",
+        "PC_CODE": 4,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Hoshiarpur",
+        "ST_CODE": "S19",
+        "PC_CODE": 5,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Anandpur Sahib",
+        "ST_CODE": "S19",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Ludhiana",
+        "ST_CODE": "S19",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Fatehgarh Sahib",
+        "ST_CODE": "S19",
+        "PC_CODE": 8,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Faridkot",
+        "ST_CODE": "S19",
+        "PC_CODE": 9,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Firozpur",
+        "ST_CODE": "S19",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Bathinda",
+        "ST_CODE": "S19",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Sangrur",
+        "ST_CODE": "S19",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "PB",
+        "PC_NAME": "Patiala",
+        "ST_CODE": "S19",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Ganganagar",
+        "ST_CODE": "S20",
+        "PC_CODE": 1,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Bikaner",
+        "ST_CODE": "S20",
+        "PC_CODE": 2,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Churu",
+        "ST_CODE": "S20",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Jhunjhunun",
+        "ST_CODE": "S20",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Sikar",
+        "ST_CODE": "S20",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Jaipur Rural",
+        "ST_CODE": "S20",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Jaipur",
+        "ST_CODE": "S20",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Alwar",
+        "ST_CODE": "S20",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Bharatpur",
+        "ST_CODE": "S20",
+        "PC_CODE": 9,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Karauli - Dhaulpur",
+        "ST_CODE": "S20",
+        "PC_CODE": 10,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Dausa",
+        "ST_CODE": "S20",
+        "PC_CODE": 11,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Tonk - Sawai Madhopur",
+        "ST_CODE": "S20",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Ajmer",
+        "ST_CODE": "S20",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Nagaur",
+        "ST_CODE": "S20",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Pali",
+        "ST_CODE": "S20",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Jodhpur",
+        "ST_CODE": "S20",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Barmer",
+        "ST_CODE": "S20",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Jalore",
+        "ST_CODE": "S20",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Udaipur",
+        "ST_CODE": "S20",
+        "PC_CODE": 19,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Banswara",
+        "ST_CODE": "S20",
+        "PC_CODE": 20,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Chittaurgarh",
+        "ST_CODE": "S20",
+        "PC_CODE": 21,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Rajsamand",
+        "ST_CODE": "S20",
+        "PC_CODE": 22,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Bhilwara",
+        "ST_CODE": "S20",
+        "PC_CODE": 23,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Kota",
+        "ST_CODE": "S20",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "RJ",
+        "PC_NAME": "Jhalawar - Baran",
+        "ST_CODE": "S20",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "SK",
+        "PC_NAME": "Sikkim",
+        "ST_CODE": "S21",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Tiruvallur",
+        "ST_CODE": "S22",
+        "PC_CODE": 1,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Chennai North",
+        "ST_CODE": "S22",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Chennai South",
+        "ST_CODE": "S22",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Chennai Central",
+        "ST_CODE": "S22",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Sriperumbudur",
+        "ST_CODE": "S22",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Kancheepuram",
+        "ST_CODE": "S22",
+        "PC_CODE": 6,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Arakkonam",
+        "ST_CODE": "S22",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Vellore",
+        "ST_CODE": "S22",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Krishnagiri",
+        "ST_CODE": "S22",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Dharmapuri",
+        "ST_CODE": "S22",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Tiruvannamalai",
+        "ST_CODE": "S22",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Arani",
+        "ST_CODE": "S22",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Viluppuram",
+        "ST_CODE": "S22",
+        "PC_CODE": 13,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Kallakurichi",
+        "ST_CODE": "S22",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Salem",
+        "ST_CODE": "S22",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Namakkal",
+        "ST_CODE": "S22",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Erode",
+        "ST_CODE": "S22",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Tiruppur",
+        "ST_CODE": "S22",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Nilgiris",
+        "ST_CODE": "S22",
+        "PC_CODE": 19,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Coimbatore",
+        "ST_CODE": "S22",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Pollachi",
+        "ST_CODE": "S22",
+        "PC_CODE": 21,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Dindigul",
+        "ST_CODE": "S22",
+        "PC_CODE": 22,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Karur",
+        "ST_CODE": "S22",
+        "PC_CODE": 23,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Tiruchirappalli",
+        "ST_CODE": "S22",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Perambalur",
+        "ST_CODE": "S22",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Cuddalore",
+        "ST_CODE": "S22",
+        "PC_CODE": 26,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Chidambaram",
+        "ST_CODE": "S22",
+        "PC_CODE": 27,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Mayiladuthurai",
+        "ST_CODE": "S22",
+        "PC_CODE": 28,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Nagappattinam",
+        "ST_CODE": "S22",
+        "PC_CODE": 29,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Thanjavur",
+        "ST_CODE": "S22",
+        "PC_CODE": 30,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Shivaganga",
+        "ST_CODE": "S22",
+        "PC_CODE": 31,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Madurai",
+        "ST_CODE": "S22",
+        "PC_CODE": 32,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Theni",
+        "ST_CODE": "S22",
+        "PC_CODE": 33,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Virudunagar",
+        "ST_CODE": "S22",
+        "PC_CODE": 34,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Ramanathapuram",
+        "ST_CODE": "S22",
+        "PC_CODE": 35,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Thoothukkudi",
+        "ST_CODE": "S22",
+        "PC_CODE": 36,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Tenkasi",
+        "ST_CODE": "S22",
+        "PC_CODE": 37,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Tirunelveli",
+        "ST_CODE": "S22",
+        "PC_CODE": 38,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TN",
+        "PC_NAME": "Kanniyakumari",
+        "ST_CODE": "S22",
+        "PC_CODE": 39,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TR",
+        "PC_NAME": "Tripura West",
+        "ST_CODE": "S23",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TR",
+        "PC_NAME": "Tripura East",
+        "ST_CODE": "S23",
+        "PC_CODE": 2,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Saharanpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Kairana",
+        "ST_CODE": "S24",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Muzaffarnagar",
+        "ST_CODE": "S24",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Bijnor",
+        "ST_CODE": "S24",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Nagina",
+        "ST_CODE": "S24",
+        "PC_CODE": 5,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Moradabad",
+        "ST_CODE": "S24",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Rampur",
+        "ST_CODE": "S24",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Sambhal",
+        "ST_CODE": "S24",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Amroha",
+        "ST_CODE": "S24",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Meerut",
+        "ST_CODE": "S24",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Baghpat",
+        "ST_CODE": "S24",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Ghaziabad",
+        "ST_CODE": "S24",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Gautam Buddha Nagar",
+        "ST_CODE": "S24",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Bulandshahr",
+        "ST_CODE": "S24",
+        "PC_CODE": 14,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Aligarh",
+        "ST_CODE": "S24",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Hathras",
+        "ST_CODE": "S24",
+        "PC_CODE": 16,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Mathura",
+        "ST_CODE": "S24",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Agra",
+        "ST_CODE": "S24",
+        "PC_CODE": 18,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Fatehpur Sikri",
+        "ST_CODE": "S24",
+        "PC_CODE": 19,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Firozabad",
+        "ST_CODE": "S24",
+        "PC_CODE": 20,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Mainpuri",
+        "ST_CODE": "S24",
+        "PC_CODE": 21,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Etah",
+        "ST_CODE": "S24",
+        "PC_CODE": 22,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Budaun",
+        "ST_CODE": "S24",
+        "PC_CODE": 23,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Aonla",
+        "ST_CODE": "S24",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Bareilly",
+        "ST_CODE": "S24",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Pilibhit",
+        "ST_CODE": "S24",
+        "PC_CODE": 26,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Shahjahanpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 27,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Kheri",
+        "ST_CODE": "S24",
+        "PC_CODE": 28,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Dhaurahra",
+        "ST_CODE": "S24",
+        "PC_CODE": 29,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Sitapur",
+        "ST_CODE": "S24",
+        "PC_CODE": 30,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Hardoi",
+        "ST_CODE": "S24",
+        "PC_CODE": 31,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Misrikh",
+        "ST_CODE": "S24",
+        "PC_CODE": 32,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Unnao",
+        "ST_CODE": "S24",
+        "PC_CODE": 33,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Mohanlalganj",
+        "ST_CODE": "S24",
+        "PC_CODE": 34,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Lucknow",
+        "ST_CODE": "S24",
+        "PC_CODE": 35,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Rae Bareli",
+        "ST_CODE": "S24",
+        "PC_CODE": 36,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Amethi",
+        "ST_CODE": "S24",
+        "PC_CODE": 37,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Sultanpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 38,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Pratapgarh",
+        "ST_CODE": "S24",
+        "PC_CODE": 39,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Farrukhabad",
+        "ST_CODE": "S24",
+        "PC_CODE": 40,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Etawah",
+        "ST_CODE": "S24",
+        "PC_CODE": 41,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Kannauj",
+        "ST_CODE": "S24",
+        "PC_CODE": 42,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Kanpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 43,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Akbarpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 44,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Jalaun",
+        "ST_CODE": "S24",
+        "PC_CODE": 45,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Jhansi",
+        "ST_CODE": "S24",
+        "PC_CODE": 46,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Hamirpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 47,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Banda",
+        "ST_CODE": "S24",
+        "PC_CODE": 48,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Fatehpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 49,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Kaushambi",
+        "ST_CODE": "S24",
+        "PC_CODE": 50,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Phulpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 51,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Allahabad",
+        "ST_CODE": "S24",
+        "PC_CODE": 52,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Barabanki",
+        "ST_CODE": "S24",
+        "PC_CODE": 53,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Faizabad",
+        "ST_CODE": "S24",
+        "PC_CODE": 54,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Ambedkar Nagar",
+        "ST_CODE": "S24",
+        "PC_CODE": 55,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Bahraich",
+        "ST_CODE": "S24",
+        "PC_CODE": 56,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Kaisarganj",
+        "ST_CODE": "S24",
+        "PC_CODE": 57,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Shrawasti",
+        "ST_CODE": "S24",
+        "PC_CODE": 58,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Gonda",
+        "ST_CODE": "S24",
+        "PC_CODE": 59,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Domriaganj",
+        "ST_CODE": "S24",
+        "PC_CODE": 60,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Basti",
+        "ST_CODE": "S24",
+        "PC_CODE": 61,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Sant Kabir Nagar",
+        "ST_CODE": "S24",
+        "PC_CODE": 62,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Maharajganj",
+        "ST_CODE": "S24",
+        "PC_CODE": 63,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Gorakhpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 64,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Kushi Nagar",
+        "ST_CODE": "S24",
+        "PC_CODE": 65,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Deoria",
+        "ST_CODE": "S24",
+        "PC_CODE": 66,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Bansgaon",
+        "ST_CODE": "S24",
+        "PC_CODE": 67,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Lalganj",
+        "ST_CODE": "S24",
+        "PC_CODE": 68,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Azamgarh",
+        "ST_CODE": "S24",
+        "PC_CODE": 69,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Ghosi",
+        "ST_CODE": "S24",
+        "PC_CODE": 70,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Salempur",
+        "ST_CODE": "S24",
+        "PC_CODE": 71,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Ballia",
+        "ST_CODE": "S24",
+        "PC_CODE": 72,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Jaunpur",
+        "ST_CODE": "S24",
+        "PC_CODE": 73,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Machhlishahr",
+        "ST_CODE": "S24",
+        "PC_CODE": 74,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Ghazipur",
+        "ST_CODE": "S24",
+        "PC_CODE": 75,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Chandauli",
+        "ST_CODE": "S24",
+        "PC_CODE": 76,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Varanasi",
+        "ST_CODE": "S24",
+        "PC_CODE": 77,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Sant Ravi Das Nagar (Bhadohi)",
+        "ST_CODE": "S24",
+        "PC_CODE": 78,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Mirzapur",
+        "ST_CODE": "S24",
+        "PC_CODE": 79,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UP",
+        "PC_NAME": "Robertsganj",
+        "ST_CODE": "S24",
+        "PC_CODE": 80,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Koch Bihar",
+        "ST_CODE": "S25",
+        "PC_CODE": 1,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Alipurduars",
+        "ST_CODE": "S25",
+        "PC_CODE": 2,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Jalpaiguri",
+        "ST_CODE": "S25",
+        "PC_CODE": 3,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Darjiling",
+        "ST_CODE": "S25",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Raiganj",
+        "ST_CODE": "S25",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Balurghat",
+        "ST_CODE": "S25",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Maldah Uttar",
+        "ST_CODE": "S25",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Maldah Dakshin",
+        "ST_CODE": "S25",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Jangipur",
+        "ST_CODE": "S25",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Baharampur",
+        "ST_CODE": "S25",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Murshidabad",
+        "ST_CODE": "S25",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Krishnanagar",
+        "ST_CODE": "S25",
+        "PC_CODE": 12,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Ranaghat",
+        "ST_CODE": "S25",
+        "PC_CODE": 13,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Bangaon",
+        "ST_CODE": "S25",
+        "PC_CODE": 14,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Barakpur",
+        "ST_CODE": "S25",
+        "PC_CODE": 15,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Dum Dum",
+        "ST_CODE": "S25",
+        "PC_CODE": 16,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Barasat",
+        "ST_CODE": "S25",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Basirhat",
+        "ST_CODE": "S25",
+        "PC_CODE": 18,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Jaynagar",
+        "ST_CODE": "S25",
+        "PC_CODE": 19,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Mathurapur",
+        "ST_CODE": "S25",
+        "PC_CODE": 20,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Diamond Harbour",
+        "ST_CODE": "S25",
+        "PC_CODE": 21,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Jadavpur",
+        "ST_CODE": "S25",
+        "PC_CODE": 22,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Kolkata Dakshin",
+        "ST_CODE": "S25",
+        "PC_CODE": 23,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Kolkata Uttar",
+        "ST_CODE": "S25",
+        "PC_CODE": 24,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Haora",
+        "ST_CODE": "S25",
+        "PC_CODE": 25,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Uluberiya",
+        "ST_CODE": "S25",
+        "PC_CODE": 26,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Shrirampur",
+        "ST_CODE": "S25",
+        "PC_CODE": 27,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Hugli",
+        "ST_CODE": "S25",
+        "PC_CODE": 28,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Arambag",
+        "ST_CODE": "S25",
+        "PC_CODE": 29,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Tamluk",
+        "ST_CODE": "S25",
+        "PC_CODE": 30,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Kanthi",
+        "ST_CODE": "S25",
+        "PC_CODE": 31,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Ghatal",
+        "ST_CODE": "S25",
+        "PC_CODE": 32,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Jhargram",
+        "ST_CODE": "S25",
+        "PC_CODE": 33,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Medinipur",
+        "ST_CODE": "S25",
+        "PC_CODE": 34,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Puruliya",
+        "ST_CODE": "S25",
+        "PC_CODE": 35,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Bankura",
+        "ST_CODE": "S25",
+        "PC_CODE": 36,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Bishnupur",
+        "ST_CODE": "S25",
+        "PC_CODE": 37,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Barddhaman Purba",
+        "ST_CODE": "S25",
+        "PC_CODE": 38,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Barddhaman - Durgapur",
+        "ST_CODE": "S25",
+        "PC_CODE": 39,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Asansol",
+        "ST_CODE": "S25",
+        "PC_CODE": 40,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Bolpur",
+        "ST_CODE": "S25",
+        "PC_CODE": 41,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "WB",
+        "PC_NAME": "Birbhum",
+        "ST_CODE": "S25",
+        "PC_CODE": 42,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Surguja",
+        "ST_CODE": "S26",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Raigarh",
+        "ST_CODE": "S26",
+        "PC_CODE": 2,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Janjgir-Champa",
+        "ST_CODE": "S26",
+        "PC_CODE": 3,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Korba",
+        "ST_CODE": "S26",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Bilaspur",
+        "ST_CODE": "S26",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Rajnandgaon",
+        "ST_CODE": "S26",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Durg",
+        "ST_CODE": "S26",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Raipur",
+        "ST_CODE": "S26",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Mahasamund",
+        "ST_CODE": "S26",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Bastar",
+        "ST_CODE": "S26",
+        "PC_CODE": 10,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "CG",
+        "PC_NAME": "Kanker",
+        "ST_CODE": "S26",
+        "PC_CODE": 11,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Rajmahal",
+        "ST_CODE": "S27",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Dumka",
+        "ST_CODE": "S27",
+        "PC_CODE": 2,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Godda",
+        "ST_CODE": "S27",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Chatra",
+        "ST_CODE": "S27",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Kodarma",
+        "ST_CODE": "S27",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Giridih",
+        "ST_CODE": "S27",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Dhanbad",
+        "ST_CODE": "S27",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Ranchi",
+        "ST_CODE": "S27",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Jamshedpur",
+        "ST_CODE": "S27",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Singhbhum",
+        "ST_CODE": "S27",
+        "PC_CODE": 10,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Khunti",
+        "ST_CODE": "S27",
+        "PC_CODE": 11,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Lohardaga",
+        "ST_CODE": "S27",
+        "PC_CODE": 12,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Palamu",
+        "ST_CODE": "S27",
+        "PC_CODE": 13,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "JH",
+        "PC_NAME": "Hazaribagh",
+        "ST_CODE": "S27",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UK",
+        "PC_NAME": "Tehri Garhwal",
+        "ST_CODE": "S28",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UK",
+        "PC_NAME": "Garhwal",
+        "ST_CODE": "S28",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UK",
+        "PC_NAME": "Almora",
+        "ST_CODE": "S28",
+        "PC_CODE": 3,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "UK",
+        "PC_NAME": "Nainital - Udhamsingh Nagar",
+        "ST_CODE": "S28",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "UK",
+        "PC_NAME": "Hardwar",
+        "ST_CODE": "S28",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Adilabad",
+        "ST_CODE": "S29",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Peddapalle",
+        "ST_CODE": "S29",
+        "PC_CODE": 2,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Karimnagar",
+        "ST_CODE": "S29",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Nizamabad",
+        "ST_CODE": "S29",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Zahirabad",
+        "ST_CODE": "S29",
+        "PC_CODE": 5,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Medak",
+        "ST_CODE": "S29",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Malkajgiri",
+        "ST_CODE": "S29",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Secunderabad",
+        "ST_CODE": "S29",
+        "PC_CODE": 8,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Hyderabad",
+        "ST_CODE": "S29",
+        "PC_CODE": 9,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Chevella",
+        "ST_CODE": "S29",
+        "PC_CODE": 10,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Mahbubnagar",
+        "ST_CODE": "S29",
+        "PC_CODE": 11,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Nagarkurnool",
+        "ST_CODE": "S29",
+        "PC_CODE": 12,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Nalgonda",
+        "ST_CODE": "S29",
+        "PC_CODE": 13,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Bhongir",
+        "ST_CODE": "S29",
+        "PC_CODE": 14,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Warangal",
+        "ST_CODE": "S29",
+        "PC_CODE": 15,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Mahabubabad",
+        "ST_CODE": "S29",
+        "PC_CODE": 16,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "TS",
+        "PC_NAME": "Khammam",
+        "ST_CODE": "S29",
+        "PC_CODE": 17,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "AN",
+        "PC_NAME": "Andaman & Nicobar Islands",
+        "ST_CODE": "U01",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "CH",
+        "PC_NAME": "Chandigarh",
+        "ST_CODE": "U02",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "DN",
+        "PC_NAME": "Dadra & Nagar Haveli",
+        "ST_CODE": "U03",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "DD",
+        "PC_NAME": "Daman & Diu",
+        "ST_CODE": "U04",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "DL",
+        "PC_NAME": "Chandni Chowk",
+        "ST_CODE": "U05",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "DL",
+        "PC_NAME": "North East Delhi",
+        "ST_CODE": "U05",
+        "PC_CODE": 2,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "DL",
+        "PC_NAME": "East Delhi",
+        "ST_CODE": "U05",
+        "PC_CODE": 3,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "DL",
+        "PC_NAME": "New Delhi",
+        "ST_CODE": "U05",
+        "PC_CODE": 4,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "DL",
+        "PC_NAME": "North West Delhi",
+        "ST_CODE": "U05",
+        "PC_CODE": 5,
+        "Ctype": "SC"
+    },
+    {
+        "ST_NAME": "DL",
+        "PC_NAME": "West Delhi",
+        "ST_CODE": "U05",
+        "PC_CODE": 6,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "DL",
+        "PC_NAME": "South Delhi",
+        "ST_CODE": "U05",
+        "PC_CODE": 7,
+        "Ctype": "GEN"
+    },
+    {
+        "ST_NAME": "LD",
+        "PC_NAME": "Lakshadweep",
+        "ST_CODE": "U06",
+        "PC_CODE": 1,
+        "Ctype": "ST"
+    },
+    {
+        "ST_NAME": "PY",
+        "PC_NAME": "Puducherry",
+        "ST_CODE": "U07",
+        "PC_CODE": 1,
+        "Ctype": "GEN"
+    }
+]
